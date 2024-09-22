@@ -1,0 +1,41 @@
+#cartproducts{
+    @apply flex flex-col w-3/4 
+}
+#top{
+    @apply flex  lg:gap-52 bg-pink-500 lg:w-full sm:gap-4
+    h-12 text-white items-center px-4 
+    box-border
+}
+#del,.imgcart{
+    @apply w-10
+}
+.cartdetails{
+    @apply flex  gap-8 w-full items-center
+}
+#Cart{
+    @apply flex w-full pt-20 box-border gap-4 lg:flex-row sm:flex-col
+}
+.cost{
+    @apply flex text-red-500 items-center
+}
+.productname{
+    @apply flex items-center w-56 lg:flex-row sm:flex-col
+}
+.price{
+    @apply w-60
+}
+.quantity{
+    @apply w-52
+}
+.total{
+    @apply lg:w-60 border-pink-600 border-2 flex sm:w-96
+     pt-6 box-border  flex-col items-center h-48 gap-4
+}
+#checkout{
+    @apply bg-pink-600
+     hover:bg-pink-700 w-36 h-12 rounded-lg
+      text-white font-bold cursor-pointer
+}
+.total h4{
+    @apply text-2xl text-pink-600 font-bold
+}

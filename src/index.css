@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    html{
+        @apply w-full h-full 
+    }
+    body{
+        @apply w-full h-full m-0
+          
+         
+      }
+      #root{
+        @apply  w-full h-full  pt-4 px-4 box-border
+              }
+}
+

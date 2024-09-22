@@ -1,0 +1,73 @@
+a:link {
+  text-decoration: none;
+  color: hotpink;
+}
+nav {
+  @apply flex flex-col 
+  p-1 lg:items-center box-border gap-4 sm:px-14
+}
+#links{
+  @apply flex   gap-4
+}
+#Logo {
+  @apply flex gap-1 items-center;
+}
+header {
+  @apply flex  lg:p-8 items-center font-bold 
+  box-border border-solid  border-2 rounded-2xl
+   border-pink-500  justify-between text-pink-500  
+   lg:h-32 sm:h-56 sm:relative sm:p-2
+}
+footer{
+  @apply flex flex-col p-8 box-border 
+  gap-4 text-pink-500 font-bold  sm:items-center
+}
+footer nav{
+  @apply flex-row
+}
+#logo {
+  @apply w-20 h-20 rounded-full
+  
+ 
+}
+.img {
+  @apply w-40 h-40
+  
+}
+.Img{
+  @apply w-20 rounded-full h-20 lg:block sm:hidden
+}
+#img{
+  @apply w-20 
+}
+.slider {
+  @apply flex w-slider h-40 p-2 box-border mt-20 
+}
+#Links{
+  @apply flex 
+}
+#bottom{
+  @apply flex lg:gap-96 px-20 lg:flex-row sm:flex-col 
+}
+footer p{
+  @apply self-center
+}
+.Shophome{
+  @apply h-96 w-1/2
+}
+#Shophome{
+  @apply flex gap-8
+}
+#cart{
+  @apply w-14 h-14 sm:absolute sm:left-64 sm:top-32 lg:sticky md:left-3/4
+}
+#Search{
+  @apply flex  lg:w-searchform lg:flex-row
+}
+#searchbtn{
+  @apply w-32 h-12 bg-pink-600 hover:bg-pink-700
+   text-white cursor-pointer
+}
+#search{
+  @apply sm:w-52 h-12  rounded-lg p-2 lg:w-60
+}

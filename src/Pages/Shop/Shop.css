@@ -1,0 +1,15 @@
+#product{
+    @apply grid lg:grid-cols-4 justify-center pt-32 box-border gap-8 
+  
+    
+}
+.shopProduct{
+    @apply flex flex-col items-center h-80 box-border border-solid  border-2 rounded-2xl border-pink-500
+    
+}
+#shop{
+    @apply bg-pink-600 hover:bg-pink-700 text-white w-32 rounded-lg h-10
+}
+.rating{
+    @apply flex justify-center flex-row w-40
+}

@@ -1,0 +1,50 @@
+#categories {
+  display: grid;
+  grid-template-columns: repeat(4, 20rem);
+  width: 100%;
+  padding-top: 2rem;
+}
+
+  .category {
+    @apply flex flex-col items-center w-60;
+  }
+
+
+.imgcategoriey {
+  @apply rounded-tl-full rounded-tr-full w-44 h-44;
+}
+.home {
+  @apply flex flex-col gap-20;
+}
+.dress {
+  @apply lg:w-80 sm:w-full;
+}
+#collections {
+  @apply flex flex-col text-pink-600 font-bold gap-8 px-40 
+  box-border cursor-pointer w-full sm:px-4  ;
+}
+#dressimages {
+  @apply lg:grid-cols-4 grid  sm:w-96 lg:w-full sm:grid-cols-1 sm:gap-4
+}
+h1 {
+  @apply text-pink-500  font-extrabold;
+}
+.imgHome {
+  @apply w-3/4 h-96 sm:w-full;
+}
+#mensCollection {
+  @apply grid lg:grid-cols-3 sm:grid-cols-1 
+  sm:gap-4  lg:gap-2   ;
+}
+.men {
+  @apply lg:w-searchform h-80 sm:w-80 md:w-96;
+}
+#devices {
+  @apply lg:w-80 ;
+}
+#Shophome{
+  @apply flex lg:flex-row sm:flex-col sm:gap-8 ;
+}
+#Sneakers{
+  @apply flex lg:flex-row sm:flex-col gap-2;
+}

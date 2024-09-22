@@ -1,0 +1,47 @@
+.productDetails{
+    @apply flex  flex-col gap-20 items-center p-10 border-2
+     rounded-2xl border-pink-500  
+       lg:w-auto h-1/2 font-bold sm:w-product
+}
+#image{
+    @apply w-60 border-2 items-center flex justify-center rounded-full h-60
+}
+.productdata{
+    @apply w-96 flex flex-col
+}
+#productpage{
+    @apply w-full pt-20 box-border items-center lg:justify-center flex
+}
+.details{
+    @apply  flex gap-16 lg:flex-row sm:flex-col
+}
+.price,.rand,.stock,.sku,.tags,.warrantyInformation
+{@apply flex items-center gap-4}
+.lab{
+    @apply text-lg text-pink-500
+}
+#button{
+    @apply flex gap-4
+}
+.counter{
+    @apply flex text-blue-950 bg-pink-300 w-36 justify-around rounded-lg h-12 items-center
+}
+#addtocart{
+    @apply flex bg-pink-500 items-center w-36 
+    h-12 justify-center rounded-lg text-white
+}
+.images{
+    @apply flex flex-col 
+}
+.ProductItems{
+    @apply flex  gap-10 
+}
+.img2{
+    @apply w-36 h-36 border-2 rounded-full sm:hidden lg:block
+}
+.images{
+    @apply flex flex-col gap-4
+}
+.imgProduct{
+    @apply w-80 h-60 
+}
