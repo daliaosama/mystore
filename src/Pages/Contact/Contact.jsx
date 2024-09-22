@@ -1,4 +1,4 @@
-import './contact.css'
+import './Contact.css'
 import { useState } from 'react'
 import * as yup from "yup"
 import success from '/assets/icon-success-check.svg'
