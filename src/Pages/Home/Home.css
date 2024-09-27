@@ -11,20 +11,21 @@
 
 
 .imgcategoriey {
-  @apply rounded-tl-full rounded-tr-full w-44 h-44;
+  @apply rounded-tl-full rounded-tr-full lg:w-44 h-44 sm:w-36 md:w-48;
 }
 .home {
   @apply flex flex-col gap-20;
 }
 .dress {
-  @apply lg:w-80 sm:w-full;
+  @apply lg:w-80 sm:w-3/4 ;
 }
 #collections {
   @apply flex flex-col text-pink-600 font-bold gap-8 px-40 
   box-border cursor-pointer w-full sm:px-4  ;
 }
 #dressimages {
-  @apply lg:grid-cols-4 grid  sm:w-96 lg:w-full sm:grid-cols-1 sm:gap-4
+  @apply  lg:grid-cols-4 grid  md:grid-cols-1 sm:justify-start
+  sm:w-96 md:w-slider lg:w-full sm:grid-cols-1 sm:gap-4 md:justify-center
 }
 h1 {
   @apply text-pink-500  font-extrabold;
@@ -34,7 +35,7 @@ h1 {
 }
 #mensCollection {
   @apply grid lg:grid-cols-3 sm:grid-cols-1 
-  sm:gap-4  lg:gap-2   ;
+  sm:gap-4  lg:gap-2  md:grid-cols-1 md:justify-center ;
 }
 .men {
   @apply lg:w-searchform h-80 sm:w-80 md:w-96;
@@ -46,5 +47,6 @@ h1 {
   @apply flex lg:flex-row sm:flex-col sm:gap-8 ;
 }
 #Sneakers{
-  @apply flex lg:flex-row sm:flex-col gap-2;
+  @apply flex lg:flex-row sm:flex-col  gap-4  md:flex-col lg:w-full
+   md:w-full  md:items-center ;
 }
