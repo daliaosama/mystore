@@ -47,7 +47,7 @@ footer nav{
   @apply flex 
 }
 #bottom{
-  @apply flex lg:gap-96 px-20 lg:flex-row sm:flex-col 
+  @apply flex lg:gap-20 px-20 lg:flex-row sm:flex-col 
 }
 footer p{
   @apply self-center
